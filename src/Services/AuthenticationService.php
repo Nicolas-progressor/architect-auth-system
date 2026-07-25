@@ -168,7 +168,7 @@ class AuthenticationService implements AuthenticationInterface
             'exp' => time() + ($this->config['jwt_ttl'] ?? 3600),
         ];
 
-        return \Firebase\JWT\JWT::encode($payload, $this->config['jwt_secret'], 'HS256');
+        return \Firebase\JWT\JWT::encode($payload, new \Firebase\JWT\Key($this->config['jwt_secret'], 'HS256'));
     }
 
     /**

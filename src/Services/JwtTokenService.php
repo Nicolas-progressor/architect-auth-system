@@ -38,7 +38,7 @@ class JwtTokenService
 
         $payload = array_merge($defaultPayload, $payload);
 
-        return JWT::encode($payload, $this->secret, $this->algorithm);
+        return JWT::encode($payload, new Key($this->secret, $this->algorithm));
     }
 
     /**

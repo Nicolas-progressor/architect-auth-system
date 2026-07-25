@@ -20,7 +20,7 @@
     "require": {
         "php": ">=8.2",
         "architect/contracts": "*@dev",
-        "firebase/php-jwt": "^6.0",
+        "firebase/php-jwt": "^7.0",
         "psr/container": "^2.0"
     },
     "require-dev": {
