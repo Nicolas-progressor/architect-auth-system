@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Architect\Auth\Controllers;
+namespace Architect\AuthSystem\Controllers;
 
-use Architect\Auth\Contracts\AuthenticationInterface;
-use Architect\Auth\Contracts\AuthorizationInterface;
-use Architect\Auth\Contracts\UserProviderInterface;
+use Architect\AuthSystem\Contracts\AuthenticationInterface;
+use Architect\AuthSystem\Contracts\AuthorizationInterface;
+use Architect\AuthSystem\Contracts\UserProviderInterface;
 use Architect\Services\Mvc\Controller;
 
 class AuthController extends Controller

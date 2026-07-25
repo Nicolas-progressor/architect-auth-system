@@ -21,7 +21,7 @@ use Architect\AuthSystem\Services\JwtTokenService;
 use Architect\AuthSystem\Services\OAuth2\OAuthManager;
 use Architect\AuthSystem\Services\SessionStorage;
 use Architect\Contracts\ServiceProviderInterface;
-use Architect\Core\Contracts\ContainerInterface;
+use Architect\Contracts\Core\ContainerInterface;
 
 class AuthServiceProvider implements ServiceProviderInterface
 {

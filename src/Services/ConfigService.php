@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Architect\Auth\Services;
+namespace Architect\AuthSystem\Services;
 
 use Architect\Core\Container;
 

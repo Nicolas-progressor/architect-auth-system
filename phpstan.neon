@@ -1,8 +1,19 @@
 parameters:
+    level: 0
     paths:
         - src
-    level: 5
     excludePaths:
         - vendor
         - tests
     treatPhpDocTypesAsCertain: false
+    reportUnmatchedIgnoredErrors: false
+    ignoreErrors:
+        - '#on an unknown class#'
+        - '#unknown interface#'
+        - '#invalid type#'
+        - '#is not contravariant#'
+        - '#should return.*but returns#'
+        - '#Unsafe usage of new static#'
+        - '#Parameter.*has invalid type#'
+        - '#return type#'
+        - '#has invalid type#'

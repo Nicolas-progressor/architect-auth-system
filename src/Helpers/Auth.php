@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Architect\Auth\Helpers;
+namespace Architect\AuthSystem\Helpers;
 
-use Architect\Auth\AuthManager;
-use Architect\Auth\Models\User;
+use Architect\AuthSystem\AuthManager;
+use Architect\AuthSystem\Models\User;
 
 /**
  * Auth Helper
@@ -22,7 +22,7 @@ use Architect\Auth\Models\User;
  *   Auth::login($u, $p)    // Войти
  *   Auth::logout()         // Выйти
  *
- * @package Architect\Auth\Helpers
+ * @package Architect\AuthSystem\Helpers
  */
 class Auth
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Architect\Auth\Contracts;
+namespace Architect\AuthSystem\Contracts;
 
-use Architect\Auth\Models\User;
+use Architect\AuthSystem\Models\User;
 
 interface AuthenticationInterface
 {

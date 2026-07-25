@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Architect\Auth\Contracts;
+namespace Architect\AuthSystem\Contracts;
 
 interface TokenStorageInterface
 {

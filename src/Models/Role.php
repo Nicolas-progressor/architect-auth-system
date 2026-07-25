@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Architect\Auth\Models;
+namespace Architect\AuthSystem\Models;
 
 use Architect\Services\Mvc\ModelBase;
 
@@ -11,7 +11,7 @@ use Architect\Services\Mvc\ModelBase;
  *
  * Модель роли для системы RBAC.
  *
- * @package Architect\Auth\Models
+ * @package Architect\AuthSystem\Models
  */
 class Role extends ModelBase
 {

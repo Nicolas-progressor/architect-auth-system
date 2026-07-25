@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Architect\Auth\Services;
+namespace Architect\AuthSystem\Services;
 
-use Architect\Auth\Contracts\TokenStorageInterface;
+use Architect\AuthSystem\Contracts\TokenStorageInterface;
 
 class SessionStorage implements TokenStorageInterface
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Architect\Auth\Middleware;
+namespace Architect\AuthSystem\Middleware;
 
-use Architect\Auth\Contracts\AuthenticationInterface;
+use Architect\AuthSystem\Contracts\AuthenticationInterface;
 
 class GuestMiddleware
 {

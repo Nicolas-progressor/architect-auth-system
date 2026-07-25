@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Architect\Auth;
 
-use Architect\Auth\Models\Role;
-use Architect\Auth\Models\User;
+use Architect\AuthSystem\Models\Role;
+use Architect\AuthSystem\Models\User;
 
 /**
  * Auth Manager
